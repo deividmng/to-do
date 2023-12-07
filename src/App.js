@@ -137,7 +137,7 @@ function App() {
               onKeyDown={handleInputChange}
             />
             <button className="add-post" onClick={handleAddPost}>
-              {isEditing ? 'Add' : 'Add'}
+              {isEditing ? 'Add' : 'Save'}
             </button>
           </div>
           {posts.map((post, index) => (
